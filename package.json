@@ -1,0 +1,21 @@
+{
+  "name": "recipe-app",
+  "version": "1.0.0",
+  "description": "Recipe App using Vanilla Javascript",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Aljon Mendiola",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1"
+  },
+  "dependencies": {
+    "core-js": "^3.9.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7",
+    "sass": "^1.32.7"
+  }
+}
